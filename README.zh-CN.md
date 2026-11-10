@@ -35,9 +35,6 @@ if (!(Test-Path -LiteralPath $env:YINQI_SIGNING_KEY)) {
 
 使用 Node.js 24 或更高版本，在 `desktop` 目录运行 `npm ci` 和 `npm start`。在手机端「设置 → 电脑连接」开启共享，再在 Windows 播放器中输入地址和配对码。打包和使用说明见 [Windows 指南](desktop/README.md)。
 
-## 作者与许可
-
-- **GPT** — 99% 的开发贡献。
-- **[misaka356](https://github.com/misaka356)** — 1% 的开发贡献与项目维护。
+## 许可证
 
 VoiceShelf 源码采用 [MIT 许可证](LICENSE)。第三方组件沿用各自的许可证，详见 [Decent Player 库发布页](https://github.com/Ma145/decent-player/releases/tag/v0.1.0-libs)和[项目内的许可声明](app/src/main/assets/licenses/)。

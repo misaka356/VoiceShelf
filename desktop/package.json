@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "description": "音栖局域网播放器",
   "main": "main.cjs",
-  "author": "GPT (99%), misaka356 (1%)",
   "license": "MIT",
   "scripts": {
     "start": "electron .",

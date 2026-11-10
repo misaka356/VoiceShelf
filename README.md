@@ -35,9 +35,6 @@ The build script downloads the required USB audio dependencies and verifies thei
 
 In the `desktop` directory, run `npm ci` and `npm start` with Node.js 24 or later. On the phone, enable sharing under **Settings → PC connection**, then enter the displayed address and pairing code in the Windows app. See the [Windows guide](desktop/README.md) for packaging and usage details.
 
-## Credits and license
-
-- **GPT** — 99% of the development contribution.
-- **[misaka356](https://github.com/misaka356)** — 1% of the development contribution and project maintainer.
+## License
 
 VoiceShelf source code is released under the [MIT License](LICENSE). Third-party components retain their own licenses. See the [Decent Player library release](https://github.com/Ma145/decent-player/releases/tag/v0.1.0-libs) and the [bundled license notices](app/src/main/assets/licenses/).
