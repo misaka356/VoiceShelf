@@ -4,6 +4,12 @@
 
 VoiceShelf（音栖）是一款 Android 本地 DLsite 音声（ASMR）播放器和作品库管理工具。它能识别文件夹名称中的 RJ 编号，并按编号获取封面和作品资料。通过同一 Wi-Fi，Windows 播放器也能浏览和播放手机里的作品库。
 
+## 下载 Android 版
+
+[下载最新版 APK](https://github.com/misaka356/VoiceShelf/releases/latest/download/VoiceShelf.apk) · [版本说明](https://github.com/misaka356/VoiceShelf/releases/latest)
+
+适用于 Android 8.0 及以上版本。
+
 ## 主要功能
 
 - 浏览音声目录、搜索和筛选作品、收藏，以及查看最近播放和最常播放。

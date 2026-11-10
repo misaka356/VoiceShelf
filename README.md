@@ -4,6 +4,12 @@ English · [简体中文](README.zh-CN.md)
 
 VoiceShelf is an Android ASMR player and library manager for local DLsite audio. It recognizes RJ catalog IDs in folder names and uses them to look up cover art and work details. An optional Windows player can browse and play the phone's library over the same Wi-Fi network.
 
+## Download for Android
+
+[Download the latest APK](https://github.com/misaka356/VoiceShelf/releases/latest/download/VoiceShelf.apk) · [Release notes](https://github.com/misaka356/VoiceShelf/releases/latest)
+
+Requires Android 8.0 or later.
+
 ## Features
 
 - Browse audio folders, search and filter works, save favorites, and revisit recently and frequently played tracks.
