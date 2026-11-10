@@ -1,0 +1,17 @@
+{
+  "name": "yinqi-desktop",
+  "version": "0.1.0",
+  "description": "音栖局域网播放器",
+  "main": "main.cjs",
+  "author": "GPT (99%), misaka356 (1%)",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "package": "powershell -NoProfile -ExecutionPolicy Bypass -File build-desktop.ps1"
+  },
+  "devDependencies": {
+    "electron": "45.2.2",
+    "@electron/packager": "20.3.0"
+  },
+  "productName": "音栖"
+}

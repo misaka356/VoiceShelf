@@ -1,0 +1,29 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-feature android:name="android.hardware.usb.host" android:required="false"/>
+    <uses-sdk tools:overrideLibrary="com.decent.usbaudio,com.decent.usbaudio.media3,com.decent.media3.decoder.flac"/>
+    <application android:label="@string/app_name" android:icon="@drawable/app_icon" android:theme="@android:style/Theme.Material.NoActionBar" android:allowBackup="false" android:localeConfig="@xml/locales_config">
+        <activity android:name=".MainActivity" android:exported="true" android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"/>
+            </intent-filter>
+            <meta-data android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                android:resource="@xml/usb_audio_device_filter"/>
+        </activity>
+        <service android:name=".LibraryShareService" android:foregroundServiceType="connectedDevice" android:exported="false"/>
+        <service android:name=".PlaybackService" android:foregroundServiceType="mediaPlayback" android:exported="false"/>
+    </application>
+</manifest>
+

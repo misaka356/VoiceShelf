@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VoiceShelf</string>
+    <string name="title_translation_not_run">未执行标题翻译</string>
+    <string name="text_sequential" formatted="false">"顺序播放"</string>
+    <string name="text_repeat_queue" formatted="false">"循环播放"</string>
+    <string name="text_shuffle" formatted="false">"随机播放"</string>
+    <string name="text_usb_dac_disconnected_playback_paused" formatted="false">"USB 解码器已断开，播放已暂停"</string>
+    <string name="text_audio_playback" formatted="false">"音声播放"</string>
+    <string name="text_private_background_playback" formatted="false">"隐私后台播放"</string>
+    <string name="text_no_matching_lrc_file" formatted="false">"没有同名 LRC"</string>
+    <string name="text_loading_lyrics" formatted="false">"正在读取字幕…"</string>
+    <string name="text_no_valid_timestamps_in_the_lrc_file" formatted="false">"LRC 中没有有效时间轴"</string>
+    <string name="text_lrc_lyrics" formatted="false">"LRC 字幕"</string>
+    <string name="text_could_not_read_lrc" formatted="false">"无法读取 LRC"</string>
+    <string name="text_cannot_play_this_audio" formatted="false">"无法播放此音频（"</string>
+    <string name="text_could_not_open_audio_check_folder_access" formatted="false">"无法打开音频，请检查目录授权"</string>
+    <string name="text_exclusive_usb_supports_wav_mp3_and_flac" formatted="false">"USB 独占支持 WAV、MP3 和 FLAC"</string>
+    <string name="text_no_usb_dac_detected" formatted="false">"未检测到 USB 解码器"</string>
+    <string name="text_allow_access_to_the_usb_dac_then_tap_play" formatted="false">"请允许访问 USB 解码器后点击播放"</string>
+    <string name="text_exclusive_usb_output_failed" formatted="false">"USB 独占输出失败 · "</string>
+    <string name="text_could_not_start_exclusive_usb_output_check_your_" formatted="false">"无法启动 USB 独占，请检查解码器连接"</string>
+    <string name="text_could_not_obtain_audio_focus" formatted="false">"暂时无法取得音频焦点"</string>
+    <string name="text_could_not_start_playback" formatted="false">"播放启动失败"</string>
+    <string name="text_untitled_work" formatted="false">"未命名作品"</string>
+    <string name="text_playing_in_background" formatted="false">"后台播放中"</string>
+    <string name="text_previous" formatted="false">"上一首"</string>
+    <string name="text_pause" formatted="false">"暂停"</string>
+    <string name="text_play" formatted="false">"播放"</string>
+    <string name="text_next" formatted="false">"下一首"</string>
+    <string name="text_filter_sort" formatted="false">"筛选与排序"</string>
+    <string name="text_reset" formatted="false">"重置"</string>
+    <string name="text_cancel" formatted="false">"取消"</string>
+    <string name="text_apply" formatted="false">"应用"</string>
+    <string name="text_work_scope" formatted="false">"作品范围"</string>
+    <string name="text_all_works" formatted="false">"全部作品"</string>
+    <string name="text_favorites_only" formatted="false">"仅收藏"</string>
+    <string name="text_work_information_match_all_conditions" formatted="false">"作品信息 · 条件同时满足"</string>
+    <string name="text_circle" formatted="false">"社团"</string>
+    <string name="text_cast" formatted="false">"声优"</string>
+    <string name="text_sort_by" formatted="false">"排序依据"</string>
+    <string name="text_rj_id" formatted="false">"RJ 编号"</string>
+    <string name="text_date_added" formatted="false">"添加时间"</string>
+    <string name="text_date_modified" formatted="false">"修改时间"</string>
+    <string name="text_id_ascending" formatted="false">"编号升序"</string>
+    <string name="text_newest_first" formatted="false">"最新优先"</string>
+    <string name="text_id_descending" formatted="false">"编号降序"</string>
+    <string name="text_oldest_first" formatted="false">"最早优先"</string>
+    <string name="text_apply_2" formatted="false">"应用 · "</string>
+    <string name="text_works" formatted="false">" 部作品"</string>
+    <string name="text_all" formatted="false">"全部"</string>
+    <string name="text_choose_circle" formatted="false">"选择社团"</string>
+    <string name="text_choose_cast_member" formatted="false">"选择声优"</string>
+    <string name="text_search_circles" formatted="false">"搜索社团"</string>
+    <string name="text_search_cast" formatted="false">"搜索声优"</string>
+    <string name="text_no_matching_names" formatted="false">"没有匹配的名称"</string>
+    <string name="text_available" formatted="false">"可选 "</string>
+    <string name="text_count_suffix" formatted="false">" 个"</string>
+    <string name="text_counts_reflect_other_filters" formatted="false">" · 数量按其余条件计算"</string>
+    <string name="text_all_circles" formatted="false">"全部社团"</string>
+    <string name="text_all_cast_members" formatted="false">"全部声优"</string>
+    <string name="text_wi_fi_changed_restart_sharing" formatted="false">"Wi-Fi 已变化，请重新开启共享"</string>
+    <string name="text_sharing_is_off" formatted="false">"未开启"</string>
+    <string name="text_pairing_code" formatted="false">"\n配对码："</string>
+    <string name="text_expired_refresh_the_code" formatted="false">"已过期，请刷新"</string>
+    <string name="text_paired" formatted="false">"  ·  已配对 "</string>
+    <string name="text_devices" formatted="false">" 台"</string>
+    <string name="text_local_network_sharing" formatted="false">"局域网共享"</string>
+    <string name="text_connect_to_wi_fi_first" formatted="false">"请先连接 Wi-Fi"</string>
+    <string name="text_local_network_sharing_2" formatted="false">" · 局域网共享"</string>
+    <string name="text_pc_can_access_the_library_tap_to_return" formatted="false">"电脑可读取作品库 · 点击返回应用"</string>
+    <string name="text_stop_sharing" formatted="false">"停止共享"</string>
+    <string name="text_could_not_start_sharing_check_wi_fi_and_port_ava" formatted="false">"共享启动失败，请检查 Wi-Fi 或端口占用"</string>
+    <string name="text_audio_folders" formatted="false">"音声目录"</string>
+    <string name="text_pair_again" formatted="false">"请重新配对"</string>
+    <string name="text_track_removed_refresh_the_library" formatted="false">"曲目已移除，请刷新作品库"</string>
+    <string name="text_could_not_read_the_file_check_folder_access_on_t" formatted="false">"文件读取失败，请检查手机目录授权"</string>
+    <string name="text_invalid_or_expired_code_refresh_it_on_the_phone" formatted="false">"配对码错误或过期，请在手机刷新配对码"</string>
+    <string name="text_connection_limit_reached_restart_sharing" formatted="false">"连接数量已满，请重新开启共享"</string>
+    <string name="text_mobile_library" formatted="false">"手机库"</string>
+    <string name="text_scanning_folders" formatted="false">"正在扫描目录…"</string>
+    <string name="text_scan_complete" formatted="false">"扫描完成 · "</string>
+    <string name="text_work_folders" formatted="false">" 个作品目录"</string>
+    <string name="text_folders_could_not_be_read_previous_entries_were_" formatted="false">" 个目录读取失败，已保留旧索引"</string>
+    <string name="text_could_not_save_the_index" formatted="false">"保存索引失败"</string>
+    <string name="text_scan_failed_check_folder_access_and_retry" formatted="false">"扫描失败，请检查授权后重试"</string>
+    <string name="text_deleting" formatted="false">"正在删除…"</string>
+    <string name="text_select_an_item_inside_an_audio_folder_in_the_fil" formatted="false">"请在文件管理中选择音声目录内的项目"</string>
+    <string name="text_the_file_changed_select_it_again" formatted="false">"文件已发生变化，请重新选择"</string>
+    <string name="text_this_location_does_not_support_deletion" formatted="false">"存储位置不支持删除此项目"</string>
+    <string name="text_remove_the_added_audio_folders_inside_this_folde" formatted="false">"此文件夹包含已添加的音声目录，请先移出该目录"</string>
+    <string name="text_deleted" formatted="false">"已删除 · "</string>
+    <string name="text_deletion_did_not_finish_rescan_to_check" formatted="false">"删除未完成，请重新扫描目录后确认"</string>
+    <string name="text_no_delete_permission_grant_folder_access_again" formatted="false">"没有删除权限，请重新授权目录"</string>
+    <string name="text_could_not_delete_check_folder_and_storage_permis" formatted="false">"无法删除，请检查目录和存储权限"</string>
+    <string name="text_refreshing_modified_dates" formatted="false">"正在刷新文件修改时间…"</string>
+    <string name="text_modified_dates_refreshed" formatted="false">"修改时间已刷新"</string>
+    <string name="text_some_folders_could_not_be_refreshed_check_access" formatted="false">"部分目录刷新失败，请检查授权"</string>
+    <string name="text_could_not_read_the_folder" formatted="false">"无法读取目录"</string>
+    <string name="text_could_not_read_subfolders" formatted="false">"无法读取子目录"</string>
+    <string name="text_file_missing_or_unreadable" formatted="false">"文件已不存在或无法读取"</string>
+    <string name="text_folder_name_changed_rescan_the_folder" formatted="false">"目录名称已变更，请重新扫描"</string>
+    <string name="text_duplicate_folder_names_choose_in_the_file_manage" formatted="false">"存在同名文件夹，请从文件管理中选择"</string>
+    <string name="text_folder_not_found_rescan_the_folder" formatted="false">"找不到文件夹，请重新扫描"</string>
+    <string name="text_work_information_complete" formatted="false">"已补全作品信息"</string>
+    <string name="text_available_information_saved" formatted="false">"已保存可用的作品信息"</string>
+    <string name="text_text_saved_cover_download_failed" formatted="false">"已保存文字信息，封面下载失败"</string>
+    <string name="text_dlsite_did_not_return_recognizable_work_informat" formatted="false">"DLsite 未返回可识别的作品信息"</string>
+    <string name="text_lookup_failed_check_the_network_and_retry" formatted="false">"查询失败，请检查网络后重试"</string>
+    <string name="text_usb_does_not_support_this_pcm_format" formatted="false">"USB 不支持此 PCM 格式"</string>
+    <string name="text_usb_device_disconnected_or_not_authorized" formatted="false">"USB 设备未连接或尚未授权"</string>
+    <string name="text_could_not_claim_the_usb_audio_interface_reconnec" formatted="false">"无法接管 USB 音频接口，请重新插入解码器"</string>
+    <string name="text_unsupported_sample_container_or_channel_layout_i" formatted="false">"USB 描述符中的采样容器或声道布局不受支持"</string>
+    <string name="text_could_not_reset_the_usb_audio_interface_reconnec" formatted="false">"无法复位 USB 音频接口，请重新插入解码器"</string>
+    <string name="text_dac_rejected_the" formatted="false">"解码器未接受 "</string>
+    <string name="text_hz_sample_rate" formatted="false">" Hz 采样率"</string>
+    <string name="text_usb_sample_rate_differs_from_the_source_audio" formatted="false">"USB 采样率回读与源音频不一致"</string>
+    <string name="text_could_not_initialize_usb_isochronous_transfer" formatted="false">"无法建立 USB 等时传输"</string>
+    <string name="text_usb_isochronous_transfer_failed_to_start" formatted="false">"USB 等时传输启动失败"</string>
+    <string name="text_usb_permission_denied" formatted="false">"USB 授权未通过"</string>
+    <string name="text_catalog_id_ascending" formatted="false">"RJ 编号 · 升序"</string>
+    <string name="text_date_added_newest" formatted="false">"添加时间 · 最新"</string>
+    <string name="text_modified_newest" formatted="false">"修改时间 · 最新"</string>
+    <string name="text_catalog_id_descending" formatted="false">"RJ 编号 · 降序"</string>
+    <string name="text_date_added_oldest" formatted="false">"添加时间 · 最早"</string>
+    <string name="text_modified_oldest" formatted="false">"修改时间 · 最早"</string>
+    <string name="text_library" formatted="false">"作品库"</string>
+    <string name="text_recently_played" formatted="false">"最近播放"</string>
+    <string name="text_most_played" formatted="false">"最常播放"</string>
+    <string name="text_off" formatted="false">"已关闭"</string>
+    <string name="text_on_background_notification_hidden" formatted="false">"已开启 · 后台通知已隐藏"</string>
+    <string name="text_on_background_notification_still_visible" formatted="false">"已开启 · 后台通知待关闭"</string>
+    <string name="text_work_information_update_finished" formatted="false">"作品信息更新结束"</string>
+    <string name="text_view" formatted="false">"查看"</string>
+    <string name="text_open_sidebar" formatted="false">"打开侧栏"</string>
+    <string name="text_play_a_random_work_and_track" formatted="false">"随机播放作品曲目"</string>
+    <string name="text_search_id_title_circle_or_cast" formatted="false">"搜索编号、作品、社团或声优"</string>
+    <string name="text_clear_search" formatted="false">"清空搜索"</string>
+    <string name="text_filter" formatted="false">"筛选"</string>
+    <string name="text_locate_current_work" formatted="false">"定位当前作品"</string>
+    <string name="text_all_folders" formatted="false">"所有目录"</string>
+    <string name="text_search" formatted="false">" · 搜索："</string>
+    <string name="text_favorites" formatted="false">"收藏 ×"</string>
+    <string name="text_circle_2" formatted="false">"社团 · "</string>
+    <string name="text_cast_2" formatted="false">"声优 · "</string>
+    <string name="text_a_folder_scan_is_already_running" formatted="false">"已有目录扫描正在进行"</string>
+    <string name="text_found" formatted="false">"找到 "</string>
+    <string name="text_no_works_yet" formatted="false">"还没有作品"</string>
+    <string name="text_no_matching_works" formatted="false">"没有符合条件的作品"</string>
+    <string name="text_choose_a_folder_containing_rj_works_to_organize_" formatted="false">"选择存放 RJ 作品的总目录，应用会自动整理曲目。"</string>
+    <string name="text_choose_folder" formatted="false">"选择目录"</string>
+    <string name="text_clear_search_and_filters" formatted="false">"清除搜索与筛选"</string>
+    <string name="text_unsorted" formatted="false">"未归类"</string>
+    <string name="text_tracks" formatted="false">" 首"</string>
+    <string name="text_sources" formatted="false">" 个来源"</string>
+    <string name="text_unknown_date" formatted="false">"时间未知"</string>
+    <string name="text_close" formatted="false">"关闭"</string>
+    <string name="text_listening" formatted="false">"收听"</string>
+    <string name="text_switch_folder" formatted="false">"切换目录  ·  "</string>
+    <string name="text_file_manager" formatted="false">"文件管理"</string>
+    <string name="text_app" formatted="false">"应用"</string>
+    <string name="text_settings" formatted="false">"设置"</string>
+    <string name="text_no_play_counts_yet" formatted="false">"还没有播放次数"</string>
+    <string name="text_no_playback_history_yet" formatted="false">"还没有播放记录"</string>
+    <string name="text_play_a_track_to_see_it_here" formatted="false">"播放曲目后，记录会显示在这里。"</string>
+    <string name="text_plays" formatted="false">" 次播放"</string>
+    <string name="text_played_before_the_update" formatted="false">"升级前的播放记录"</string>
+    <string name="text_resume" formatted="false">"继续收听"</string>
+    <string name="text_play_from_start" formatted="false">"从头播放"</string>
+    <string name="text_remove_from_favorites" formatted="false">"取消收藏"</string>
+    <string name="text_add_to_favorites" formatted="false">"加入收藏"</string>
+    <string name="text_manage_folder" formatted="false">"管理文件夹"</string>
+    <string name="text_choose_a_source_to_manage" formatted="false">"选择要管理的来源"</string>
+    <string name="text_updating_work_information" formatted="false">"作品信息更新 "</string>
+    <string name="text_current_work_is_outside_the_library" formatted="false">"当前作品不在作品库中"</string>
+    <string name="text_work_information" formatted="false">"作品信息"</string>
+    <string name="text_playback_output" formatted="false">"播放与输出"</string>
+    <string name="text_lyrics_motion" formatted="false">"字幕与动效"</string>
+    <string name="text_privacy_background" formatted="false">"隐私与后台"</string>
+    <string name="text_pc_connection" formatted="false">"电脑连接"</string>
+    <string name="text_back" formatted="false">"‹  返回"</string>
+    <string name="text_back_2" formatted="false">"返回"</string>
+    <string name="text_back_to_settings" formatted="false">"返回设置首页"</string>
+    <string name="text_tasks" formatted="false">"任务"</string>
+    <string name="text_folder_task" formatted="false">"目录任务"</string>
+    <string name="text_work_information_task" formatted="false">"作品信息任务"</string>
+    <string name="text_resume_unfinished_tasks" formatted="false">"继续未完成任务"</string>
+    <string name="text_add_an_audio_folder_on_this_device" formatted="false">"添加手机上的音声目录"</string>
+    <string name="text_folders_scan_permissions_and_files" formatted="false">" 个目录 · 扫描、授权与文件管理"</string>
+    <string name="text_download_metadata_translate_titles_and_view_resu" formatted="false">"联网补全、标题翻译与任务结果"</string>
+    <string name="text_playback_experience" formatted="false">"播放体验"</string>
+    <string name="text_exclusive_usb_dac_permissions_and_volume" formatted="false">"USB 独占、解码器授权与音量"</string>
+    <string name="text_cover_background_lyric_opacity_and_motion" formatted="false">"封面背景、字幕透明度与界面动效"</string>
+    <string name="text_private_playback_notifications_and_background_ac" formatted="false">"隐私播放、通知与系统后台权限"</string>
+    <string name="text_device_connection" formatted="false">"设备连接"</string>
+    <string name="text_local_network_sharing_and_pc_pairing" formatted="false">"局域网共享与电脑配对"</string>
+    <string name="text_app_language" formatted="false">"界面语言"</string>
+    <string name="text_enable_sharing_then_enter_the_address_and_pairin" formatted="false">"开启后，在同一 Wi-Fi 的电脑端输入连接地址和配对码，即可访问手机作品库。"</string>
+    <string name="text_start_sharing" formatted="false">"开启局域网共享"</string>
+    <string name="text_copy_connection_details" formatted="false">"复制连接信息"</string>
+    <string name="text_connection" formatted="false">"连接"</string>
+    <string name="text_copied" formatted="false">"已复制"</string>
+    <string name="text_refresh_pairing_code" formatted="false">"刷新配对码"</string>
+    <string name="text_added_folders" formatted="false">"已添加的目录"</string>
+    <string name="text_select_the_folder_containing_your_audio_files_it" formatted="false">"选择存放音声文件的目录，添加后会自动扫描。"</string>
+    <string name="text_tap_a_folder_to_browse_its_files_use_its_menu_to" formatted="false">"点目录查看文件，右侧菜单可重新扫描或移出目录。"</string>
+    <string name="text_add_folder" formatted="false">"＋ 添加目录"</string>
+    <string name="text_refresh_modified_dates" formatted="false">"刷新修改时间"</string>
+    <string name="text_view_failed_scans" formatted="false">"查看扫描失败目录 · "</string>
+    <string name="text_folders_that_could_not_be_read" formatted="false">"读取失败的目录"</string>
+    <string name="text_manage" formatted="false">"管理 "</string>
+    <string name="text_update_work_information" formatted="false">"更新作品信息"</string>
+    <string name="text_get_covers_and_work_details_by_rj_id_keeping_man" formatted="false">"按 RJ 编号获取封面和资料，保留手动编辑的字段和原名。"</string>
+    <string name="text_deepseek_is_configured_titles_are_translated_as_" formatted="false">"已配置 DeepSeek，更新时会一并翻译标题。"</string>
+    <string name="text_set_a_deepseek_api_key_to_translate_titles_durin" formatted="false">"设置 DeepSeek API Key 后，更新时可一并翻译标题。"</string>
+    <string name="text_choose_update_scope" formatted="false">"选择更新范围"</string>
+    <string name="text_replace_api_key" formatted="false">"更换 API Key"</string>
+    <string name="text_set_api_key" formatted="false">"设置 API Key"</string>
+    <string name="text_stop_after_current_work" formatted="false">"停止后续更新"</string>
+    <string name="text_view_results" formatted="false">"查看结果"</string>
+    <string name="text_private_playback" formatted="false">"隐私播放"</string>
+    <string name="text_hide_background_notifications" formatted="false">"隐藏后台通知"</string>
+    <string name="text_turn_off_the_private_background_playback_notific" formatted="false">"关闭系统中的“隐私后台播放”通知即可完成设置。"</string>
+    <string name="text_open_settings" formatted="false">"去设置"</string>
+    <string name="text_later" formatted="false">"稍后"</string>
+    <string name="text_private_notification_settings" formatted="false">"隐私通知设置"</string>
+    <string name="text_system_background_access" formatted="false">"系统后台权限"</string>
+    <string name="text_battery_optimization" formatted="false">"电池优化"</string>
+    <string name="text_app_details" formatted="false">"应用详情"</string>
+    <string name="text_media_notification_settings" formatted="false">"媒体通知设置"</string>
+    <string name="text_audio_output" formatted="false">"音频输出"</string>
+    <string name="text_exclusive_usb_output" formatted="false">"USB 独占输出"</string>
+    <string name="text_wav_mp3_flac_1_in_exclusive_mode" formatted="false">"WAV、MP3、FLAC · 独占时固定 1×"</string>
+    <string name="text_authorize_usb_dac" formatted="false">"授权 USB 解码器"</string>
+    <string name="text_usb_volume" formatted="false">"USB 音量"</string>
+    <string name="text_requires_android_10_and_usb_host" formatted="false">"需要 Android 10+ 和 USB Host"</string>
+    <string name="text_no_usb_dac_connected" formatted="false">"未连接 USB 解码器"</string>
+    <string name="text_usb_dac" formatted="false">"USB 解码器"</string>
+    <string name="text_authorized" formatted="false">"  ·  已授权"</string>
+    <string name="text_permission_needed" formatted="false">"  ·  待授权"</string>
+    <string name="text_connect_a_usb_dac_first" formatted="false">"请先连接 USB 解码器"</string>
+    <string name="text_usb_dac_already_authorized" formatted="false">"USB 解码器已授权"</string>
+    <string name="text_battery_optimization_2" formatted="false">"电池优化  ·  "</string>
+    <string name="text_exempt" formatted="false">"已允许忽略"</string>
+    <string name="text_managed_by_system" formatted="false">"受系统优化管理"</string>
+    <string name="text_app_details_2" formatted="false">"应用详情  ·  "</string>
+    <string name="text_background_use_restricted" formatted="false">"后台运行受限"</string>
+    <string name="text_background_and_startup_settings" formatted="false">"后台运行与厂商启动设置"</string>
+    <string name="text_find_this_app_in_system_settings" formatted="false">"请在系统设置中找到"</string>
+    <string name="text_lyrics_background" formatted="false">"字幕与背景"</string>
+    <string name="text_use_cover_as_lyrics_background" formatted="false">"用封面作字幕背景"</string>
+    <string name="text_cover_opacity" formatted="false">"封面不透明度  "</string>
+    <string name="text_cover_brightness" formatted="false">"封面亮度  "</string>
+    <string name="text_lyric_transparency" formatted="false">"字幕透明度  "</string>
+    <string name="text_interface_motion" formatted="false">"界面动效"</string>
+    <string name="text_reduce_motion" formatted="false">"减少动态效果"</string>
+    <string name="text_reduce_animations_for_navigation_dialogs_and_but" formatted="false">"减少页面切换、弹窗和按压反馈的动画。"</string>
+    <string name="text_enter_deepseek_api_key" formatted="false">"输入 DeepSeek API Key"</string>
+    <string name="text_save" formatted="false">"保存"</string>
+    <string name="text_enter_an_api_key" formatted="false">"请输入 API Key"</string>
+    <string name="text_remove_key" formatted="false">"移除密钥"</string>
+    <string name="text_api_key_removed" formatted="false">"已移除 API Key"</string>
+    <string name="text_api_key_saved" formatted="false">"已保存 API Key"</string>
+    <string name="text_could_not_save_api_key" formatted="false">"无法保存 API Key"</string>
+    <string name="text_missing_details_or_translation" formatted="false">"仅缺资料或译名 · "</string>
+    <string name="text_current_filters" formatted="false">"当前筛选 · "</string>
+    <string name="text_fetch_again_for_current_folder" formatted="false">"重新获取当前目录 · "</string>
+    <string name="text_no_works_to_update_in_this_scope" formatted="false">"这个范围没有待查询的作品"</string>
+    <string name="text_stopping" formatted="false">"正在停止"</string>
+    <string name="text_translating" formatted="false">"正在翻译"</string>
+    <string name="text_fetching" formatted="false">"正在查询 "</string>
+    <string name="text_completed" formatted="false">"已完成"</string>
+    <string name="text_stopped" formatted="false">"已停止"</string>
+    <string name="text_update_results" formatted="false">"补全结果"</string>
+    <string name="text_retry_incomplete_works" formatted="false">"重试未补全"</string>
+    <string name="text_title_translated" formatted="false">"标题已翻译"</string>
+    <string name="text_used_saved_translation" formatted="false">"已使用缓存译名"</string>
+    <string name="text_no_api_key_original_title_kept" formatted="false">"未配置 API Key，保留原名"</string>
+    <string name="text_no_original_title_to_translate" formatted="false">"暂无原名可翻译"</string>
+    <string name="text_could_not_read_the_api_key_set_it_again" formatted="false">"无法读取 API Key，请重新设置"</string>
+    <string name="text_the_original_title_changed_retry" formatted="false">"原名已变更，请重试"</string>
+    <string name="text_title_translation_failed" formatted="false">"标题翻译失败"</string>
+    <string name="text_expand_mini_player" formatted="false">"展开播放栏"</string>
+    <string name="text_collapse_mini_player" formatted="false">"收起播放栏"</string>
+    <string name="text_library_2" formatted="false">"‹  作品库"</string>
+    <string name="text_work_actions" formatted="false">"作品操作"</string>
+    <string name="text_source" formatted="false">"来源  "</string>
+    <string name="text_play_work" formatted="false">"播放作品"</string>
+    <string name="text_favorited" formatted="false">"★  已收藏"</string>
+    <string name="text_favorite" formatted="false">"☆  收藏"</string>
+    <string name="text_hide_work_information" formatted="false">"⌃  收起作品信息"</string>
+    <string name="text_show_work_information" formatted="false">"⌄  展开作品信息"</string>
+    <string name="text_catalog_id" formatted="false">"编号  "</string>
+    <string name="text_original_title" formatted="false">"原名  "</string>
+    <string name="text_circle_3" formatted="false">"社团  "</string>
+    <string name="text_cast_3" formatted="false">"声优  "</string>
+    <string name="text_main_folder" formatted="false">"主目录"</string>
+    <string name="text_choose_work_source" formatted="false">"选择作品来源"</string>
+    <string name="text_manage_files" formatted="false">"管理文件"</string>
+    <string name="text_edit_work_information" formatted="false">"编辑作品信息"</string>
+    <string name="text_a_work_update_is_already_running" formatted="false">"已有补全任务正在运行"</string>
+    <string name="text_minimize" formatted="false">"⌄  收起"</string>
+    <string name="text_play_queue" formatted="false">"播放队列"</string>
+    <string name="text_now_playing" formatted="false">"正在播放"</string>
+    <string name="text_15_sec" formatted="false">"−15 秒"</string>
+    <string name="text_15_sec_2" formatted="false">"+15 秒"</string>
+    <string name="text_speed" formatted="false">"播放倍速"</string>
+    <string name="text_playback_speed" formatted="false">"播放速度"</string>
+    <string name="text_sleep_timer" formatted="false">"睡眠定时"</string>
+    <string name="text_15_minutes" formatted="false">"15 分钟"</string>
+    <string name="text_30_minutes" formatted="false">"30 分钟"</string>
+    <string name="text_60_minutes" formatted="false">"60 分钟"</string>
+    <string name="text_custom" formatted="false">"自定义"</string>
+    <string name="text_playback_mode" formatted="false">"播放模式，当前"</string>
+    <string name="text_tap_to_change" formatted="false">"，点击切换"</string>
+    <string name="text_minutes_1_1440" formatted="false">"分钟，1–1440"</string>
+    <string name="text_custom_sleep_timer" formatted="false">"自定义睡眠定时"</string>
+    <string name="text_start" formatted="false">"开始"</string>
+    <string name="text_enter_1_1440_minutes" formatted="false">"请输入 1–1440 分钟"</string>
+    <string name="text_locate_current_lyric" formatted="false">"定位当前字幕"</string>
+    <string name="text_move_to_end_of_queue" formatted="false">"移到队列末尾"</string>
+    <string name="text_add_to_end_of_queue" formatted="false">"添加到队列末尾"</string>
+    <string name="text_play_next" formatted="false">"下一首播放"</string>
+    <string name="text_edit_play_queue" formatted="false">"编辑播放队列"</string>
+    <string name="text_delete_file" formatted="false">"删除文件"</string>
+    <string name="text_the_track_changed_rescan_the_folder" formatted="false">"曲目已发生变化，请重新扫描"</string>
+    <string name="text_player_is_starting" formatted="false">"播放器正在启动"</string>
+    <string name="text_this_track_is_playing" formatted="false">"这首曲目正在播放"</string>
+    <string name="text_track_is_already_last_in_the_queue" formatted="false">"曲目已在队列末尾"</string>
+    <string name="text_moved_to_end_of_queue" formatted="false">"已移到队列末尾"</string>
+    <string name="text_set_to_play_next" formatted="false">"已设为下一首"</string>
+    <string name="text_added_to_queue" formatted="false">"已添加到队列"</string>
+    <string name="text_track_is_already_in_the_queue" formatted="false">"曲目已在队列中"</string>
+    <string name="text_done" formatted="false">"完成"</string>
+    <string name="text_edit_queue" formatted="false">"编辑队列"</string>
+    <string name="text_long_press_a_track_in_the_work_details_to_add_it" formatted="false">"在作品详情长按曲目，可添加到队列。"</string>
+    <string name="text_move_up" formatted="false">"上移"</string>
+    <string name="text_move_down" formatted="false">"下移"</string>
+    <string name="text_remove" formatted="false">"移除"</string>
+    <string name="text_queue_is_empty" formatted="false">"队列为空"</string>
+    <string name="text_tracks_2" formatted="false">" 首曲目"</string>
+    <string name="text_custom_queue" formatted="false">"自定义队列  ·  "</string>
+    <string name="text_work_queue" formatted="false">"作品队列  ·  "</string>
+    <string name="text_removed_from_queue" formatted="false">"已移出队列 · "</string>
+    <string name="text_undo" formatted="false">"撤销"</string>
+    <string name="text_the_queue_changed_this_action_cannot_be_undone" formatted="false">"播放队列已变更，无法恢复这次操作"</string>
+    <string name="text_timer" formatted="false">"  ·  定时 "</string>
+    <string name="text_exclusive_usb" formatted="false">"  ·  USB 独占"</string>
+    <string name="text_no_playable_works_in_this_folder" formatted="false">"当前目录没有可播放的作品"</string>
+    <string name="text_could_not_read_the_index_rescan_the_folder" formatted="false">"索引读取失败，请重新扫描目录"</string>
+    <string name="text_switch_audio_folder" formatted="false">"切换音声目录"</string>
+    <string name="text_choose_a_folder_to_manage" formatted="false">"选择要管理的目录"</string>
+    <string name="text_rescan" formatted="false">"重新扫描"</string>
+    <string name="text_remove_from_library" formatted="false">"移出作品库"</string>
+    <string name="text_wait_for_the_current_folder_operation_to_finish" formatted="false">"请等待当前目录操作完成"</string>
+    <string name="text_remove_from_library_2" formatted="false">"移出作品库？"</string>
+    <string name="text_the_original_files_will_stay_on_this_device" formatted="false">"手机上的原文件会保留。"</string>
+    <string name="text_remove_2" formatted="false">"移出"</string>
+    <string name="text_could_not_read_files_check_folder_access" formatted="false">"无法读取文件，请检查目录授权"</string>
+    <string name="text_the_work_folder_changed_rescan_it" formatted="false">"作品文件夹已发生变化，请重新扫描"</string>
+    <string name="text_open_folder" formatted="false">"打开文件夹"</string>
+    <string name="text_delete_folder" formatted="false">"删除文件夹"</string>
+    <string name="text_up_one_level" formatted="false">"上一级"</string>
+    <string name="text_reading_files" formatted="false">"正在读取文件…"</string>
+    <string name="text_this_folder_is_empty" formatted="false">"此文件夹为空"</string>
+    <string name="text_items_long_press_or_tap_to_manage" formatted="false">" 个项目  ·  长按或点 ⋯ 管理"</string>
+    <string name="text_folder" formatted="false">"文件夹  ›"</string>
+    <string name="text_file" formatted="false">"文件"</string>
+    <string name="text_reload" formatted="false">"重新读取"</string>
+    <string name="text_add_an_audio_folder_first" formatted="false">"请先添加音声目录"</string>
+    <string name="text_folder_write_access_needed" formatted="false">"需要目录写入权限"</string>
+    <string name="text_grant_access_again_to" formatted="false">"请在系统文件选择器中重新授权「"</string>
+    <string name="text_in_the_system_picker_then_long_press_again_to_de" formatted="false">"」，然后再次长按删除。"</string>
+    <string name="text_grant_access_again" formatted="false">"重新授权"</string>
+    <string name="text_the_folder_and_everything_in_it_will_be_deleted_" formatted="false">"将从设备存储删除此文件夹及其中的全部内容。"</string>
+    <string name="text_this_file_will_be_deleted_from_device_storage" formatted="false">"将从设备存储删除此文件。"</string>
+    <string name="text_location" formatted="false">"位置  "</string>
+    <string name="text_you_cannot_undo_this_in_the_app" formatted="false">" 删除后无法在应用中恢复。"</string>
+    <string name="text_delete" formatted="false">"删除"</string>
+    <string name="text_select_the_audio_folder_you_originally_added" formatted="false">"请选择原先添加的音声目录"</string>
+    <string name="text_access_granted_long_press_again_to_delete" formatted="false">"已授权，可再次长按删除"</string>
+    <string name="text_this_location_only_grants_read_access" formatted="false">"此位置只提供读取权限"</string>
+    <string name="text_could_not_retain_access_choose_a_local_audio_fol" formatted="false">"无法保留目录授权，请选择本地音声目录"</string>
+    <string name="text_work_title" formatted="false">"作品名"</string>
+    <string name="text_could_not_save" formatted="false">"保存失败"</string>
+    <string name="text_view_cover" formatted="false">"查看封面大图"</string>
+    <string name="text_cover" formatted="false">" 封面大图"</string>
+    <string name="translation_target">"标题翻译目标 · %1$s"</string>
+    <string name="update_progress">"%1$s · %2$d / %3$d\n完整 %4$d · 译名 %5$d · 待重试 %6$d · %7$s"</string>
+    <string name="delete_target">"删除「%1$s」？"</string>
+</resources>

@@ -1,0 +1,43 @@
+plugins { id 'com.android.application' version '9.0.0' }
+
+android {
+    namespace 'com.dlvoice.player'
+    compileSdk 36
+    defaultConfig {
+        applicationId 'com.dlvoice.player'
+        minSdk 26
+        targetSdk 35
+        versionCode 27
+        versionName '0.15.9'
+    }
+    signingConfigs {
+        existing {
+            storeFile file(System.getenv('YINQI_SIGNING_KEY') ?: "${System.getenv('LOCALAPPDATA')}/DLVoiceBuild/debug.jks")
+            storePassword 'android'
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+        }
+    }
+    buildTypes { release { signingConfig signingConfigs.existing } }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+}
+dependencies {
+    def depot = System.getenv('YINQI_USB_LIBS') ?: "${System.getenv('LOCALAPPDATA')}/DLVoiceBuild/usb"
+    implementation files("${depot}/decent-usb-audio-driver-release.aar",
+                         "${depot}/decent-media3-decoder-flac-release.aar")
+    implementation 'androidx.media3:media3-exoplayer:1.9.3'
+    implementation 'androidx.media3:media3-database:1.9.3'
+    implementation 'androidx.core:core-ktx:1.18.0'
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib:2.3.10'
+}
+
+if (providers.gradleProperty('yinqiBuildDir').isPresent()) {
+    def buildRoot = providers.gradleProperty('yinqiBuildDir').get()
+    rootProject.layout.buildDirectory.set(file("${buildRoot}/root"))
+    layout.buildDirectory.set(file("${buildRoot}/app"))
+}
+
+

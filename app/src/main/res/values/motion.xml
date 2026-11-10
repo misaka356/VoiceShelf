@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MotionPanel">
+        <item name="android:windowEnterAnimation">@anim/panel_enter</item>
+        <item name="android:windowExitAnimation">@anim/panel_exit</item>
+    </style>
+    <style name="MotionDrawer">
+        <item name="android:windowEnterAnimation">@anim/drawer_enter</item>
+        <item name="android:windowExitAnimation">@anim/drawer_exit</item>
+    </style>
+</resources>

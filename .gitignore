@@ -1,0 +1,33 @@
+# Local project notes and probes
+/AGENTS.md
+/dlsite_probe.py
+/versions/
+
+# Build output and dependency caches
+.gradle/
+.kotlin/
+build/
+node_modules/
+dist/
+/releases/
+*.apk
+*.aab
+*.aar
+*.idsig
+
+# Local SDK settings, credentials, and signing keys
+local.properties
+.env
+.env.*
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+
+# Editor and OS files
+.idea/
+.vscode/
+*.iml
+Thumbs.db
+.DS_Store
