@@ -2,7 +2,7 @@
 
 简体中文 · [English](README.md)
 
-VoiceShelf 是一款 Android 本地音声管理播放器。它按 RJ 编号整理音声目录，也可通过同一 Wi-Fi 将手机作品库共享给 Windows 播放器。
+VoiceShelf（音栖）是一款 Android 本地 DLsite 音声（ASMR）播放器和作品库管理工具。它能识别文件夹名称中的 RJ 编号，并按编号获取封面和作品资料。通过同一 Wi-Fi，Windows 播放器也能浏览和播放手机里的作品库。
 
 ## 主要功能
 
